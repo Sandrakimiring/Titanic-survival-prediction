@@ -1,4 +1,6 @@
-# Titanic-survival-prediction
+
+# Titanic Survival Prediction
+
 Welcome to the Titanic Survival Prediction App! This web application predicts whether a passenger survived the Titanic disaster based on various features. The app utilizes machine learning to make predictions and provides an intuitive interface for users to input passenger data.
 
 ## Table of Contents
@@ -27,31 +29,30 @@ To run the Titanic Survival Prediction App locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/titanic-survival-prediction.git
+   git clone https://github.com/Sandrakimiring/titanic-survival-prediction.git
    cd titanic-survival-prediction
-2. **Install Dependencies**
-Make sure you have Python and pip installed. Then, install the required packages:
+   ```
 
-```bash
-pip install -r requirements.txt
+2. **Install Dependencies**:
+   Make sure you have Python and pip installed. Then, install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Run the Application: Start the Flask server:## 
+3. **Run the Application**:
+   Start the Flask server:
+   ```bash
+   python app.py
+   ```
+   The app will be running on [http://127.0.0.1:5000](http://127.0.0.1:5000).
 
-bash
-Copy code
-python app.py
-The app will be running on http://127.0.0.1:5000.
-
-##How to Use:##
-Open your web browser and go to http://127.0.0.1:5000.
-Fill in the passenger details in the input form.
-Click the "Predict" button to get the survival prediction.
-Model Training
-The model is trained using the Titanic dataset from Kaggle. It uses various features such as:
+## How to Use:
+1. Open your web browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000).
+2. Fill in the passenger details in the input form.
+3. Click the "Predict" button to get the survival prediction.
 
 ## Model Training
 The model is trained using the Titanic dataset from Kaggle. It uses various features such as:
-
 - **Passenger class**
 - **Gender**
 - **Age**
@@ -66,10 +67,7 @@ The model is trained using the Titanic dataset from Kaggle. It uses various feat
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any problems or have suggestions for improvements.
-## Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any problems or have suggestions for improvements.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
 
